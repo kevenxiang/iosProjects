@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0AE3FC61D61B238001A5902 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AE3FC51D61B238001A5902 /* main.m */; };
+		F0AE3FC91D61B238001A5902 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AE3FC81D61B238001A5902 /* AppDelegate.m */; };
+		F0AE3FCC1D61B238001A5902 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AE3FCB1D61B238001A5902 /* ViewController.m */; };
+		F0AE3FCF1D61B238001A5902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0AE3FCD1D61B238001A5902 /* Main.storyboard */; };
+		F0AE3FD11D61B238001A5902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0AE3FD01D61B238001A5902 /* Assets.xcassets */; };
+		F0AE3FD41D61B238001A5902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0AE3FD21D61B238001A5902 /* LaunchScreen.storyboard */; };
+		F0AE3FDF1D61B238001A5902 /* AroundZAxisDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AE3FDE1D61B238001A5902 /* AroundZAxisDemoTests.m */; };
+		F0AE3FEA1D61B238001A5902 /* AroundZAxisDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AE3FE91D61B238001A5902 /* AroundZAxisDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0AE3FDB1D61B238001A5902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0AE3FB91D61B238001A5902 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0AE3FC01D61B238001A5902;
+			remoteInfo = AroundZAxisDemo;
+		};
+		F0AE3FE61D61B238001A5902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0AE3FB91D61B238001A5902 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0AE3FC01D61B238001A5902;
+			remoteInfo = AroundZAxisDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0AE3FC11D61B238001A5902 /* AroundZAxisDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AroundZAxisDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0AE3FC51D61B238001A5902 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0AE3FC71D61B238001A5902 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F0AE3FC81D61B238001A5902 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F0AE3FCA1D61B238001A5902 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F0AE3FCB1D61B238001A5902 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F0AE3FCE1D61B238001A5902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0AE3FD01D61B238001A5902 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0AE3FD31D61B238001A5902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0AE3FD51D61B238001A5902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0AE3FDA1D61B238001A5902 /* AroundZAxisDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AroundZAxisDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0AE3FDE1D61B238001A5902 /* AroundZAxisDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AroundZAxisDemoTests.m; sourceTree = "<group>"; };
+		F0AE3FE01D61B238001A5902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0AE3FE51D61B238001A5902 /* AroundZAxisDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AroundZAxisDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0AE3FE91D61B238001A5902 /* AroundZAxisDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AroundZAxisDemoUITests.m; sourceTree = "<group>"; };
+		F0AE3FEB1D61B238001A5902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0AE3FBE1D61B238001A5902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0AE3FD71D61B238001A5902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0AE3FE21D61B238001A5902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0AE3FB81D61B238001A5902 = {
+			isa = PBXGroup;
+			children = (
+				F0AE3FC31D61B238001A5902 /* AroundZAxisDemo */,
+				F0AE3FDD1D61B238001A5902 /* AroundZAxisDemoTests */,
+				F0AE3FE81D61B238001A5902 /* AroundZAxisDemoUITests */,
+				F0AE3FC21D61B238001A5902 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0AE3FC21D61B238001A5902 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0AE3FC11D61B238001A5902 /* AroundZAxisDemo.app */,
+				F0AE3FDA1D61B238001A5902 /* AroundZAxisDemoTests.xctest */,
+				F0AE3FE51D61B238001A5902 /* AroundZAxisDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0AE3FC31D61B238001A5902 /* AroundZAxisDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F0AE3FC71D61B238001A5902 /* AppDelegate.h */,
+				F0AE3FC81D61B238001A5902 /* AppDelegate.m */,
+				F0AE3FCA1D61B238001A5902 /* ViewController.h */,
+				F0AE3FCB1D61B238001A5902 /* ViewController.m */,
+				F0AE3FCD1D61B238001A5902 /* Main.storyboard */,
+				F0AE3FD01D61B238001A5902 /* Assets.xcassets */,
+				F0AE3FD21D61B238001A5902 /* LaunchScreen.storyboard */,
+				F0AE3FD51D61B238001A5902 /* Info.plist */,
+				F0AE3FC41D61B238001A5902 /* Supporting Files */,
+			);
+			path = AroundZAxisDemo;
+			sourceTree = "<group>";
+		};
+		F0AE3FC41D61B238001A5902 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0AE3FC51D61B238001A5902 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0AE3FDD1D61B238001A5902 /* AroundZAxisDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0AE3FDE1D61B238001A5902 /* AroundZAxisDemoTests.m */,
+				F0AE3FE01D61B238001A5902 /* Info.plist */,
+			);
+			path = AroundZAxisDemoTests;
+			sourceTree = "<group>";
+		};
+		F0AE3FE81D61B238001A5902 /* AroundZAxisDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0AE3FE91D61B238001A5902 /* AroundZAxisDemoUITests.m */,
+				F0AE3FEB1D61B238001A5902 /* Info.plist */,
+			);
+			path = AroundZAxisDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0AE3FC01D61B238001A5902 /* AroundZAxisDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0AE3FEE1D61B238001A5902 /* Build configuration list for PBXNativeTarget "AroundZAxisDemo" */;
+			buildPhases = (
+				F0AE3FBD1D61B238001A5902 /* Sources */,
+				F0AE3FBE1D61B238001A5902 /* Frameworks */,
+				F0AE3FBF1D61B238001A5902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AroundZAxisDemo;
+			productName = AroundZAxisDemo;
+			productReference = F0AE3FC11D61B238001A5902 /* AroundZAxisDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0AE3FD91D61B238001A5902 /* AroundZAxisDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0AE3FF11D61B238001A5902 /* Build configuration list for PBXNativeTarget "AroundZAxisDemoTests" */;
+			buildPhases = (
+				F0AE3FD61D61B238001A5902 /* Sources */,
+				F0AE3FD71D61B238001A5902 /* Frameworks */,
+				F0AE3FD81D61B238001A5902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0AE3FDC1D61B238001A5902 /* PBXTargetDependency */,
+			);
+			name = AroundZAxisDemoTests;
+			productName = AroundZAxisDemoTests;
+			productReference = F0AE3FDA1D61B238001A5902 /* AroundZAxisDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0AE3FE41D61B238001A5902 /* AroundZAxisDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0AE3FF41D61B238001A5902 /* Build configuration list for PBXNativeTarget "AroundZAxisDemoUITests" */;
+			buildPhases = (
+				F0AE3FE11D61B238001A5902 /* Sources */,
+				F0AE3FE21D61B238001A5902 /* Frameworks */,
+				F0AE3FE31D61B238001A5902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0AE3FE71D61B238001A5902 /* PBXTargetDependency */,
+			);
+			name = AroundZAxisDemoUITests;
+			productName = AroundZAxisDemoUITests;
+			productReference = F0AE3FE51D61B238001A5902 /* AroundZAxisDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0AE3FB91D61B238001A5902 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xiang;
+				TargetAttributes = {
+					F0AE3FC01D61B238001A5902 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F0AE3FD91D61B238001A5902 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F0AE3FC01D61B238001A5902;
+					};
+					F0AE3FE41D61B238001A5902 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F0AE3FC01D61B238001A5902;
+					};
+				};
+			};
+			buildConfigurationList = F0AE3FBC1D61B238001A5902 /* Build configuration list for PBXProject "AroundZAxisDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0AE3FB81D61B238001A5902;
+			productRefGroup = F0AE3FC21D61B238001A5902 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0AE3FC01D61B238001A5902 /* AroundZAxisDemo */,
+				F0AE3FD91D61B238001A5902 /* AroundZAxisDemoTests */,
+				F0AE3FE41D61B238001A5902 /* AroundZAxisDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0AE3FBF1D61B238001A5902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AE3FD41D61B238001A5902 /* LaunchScreen.storyboard in Resources */,
+				F0AE3FD11D61B238001A5902 /* Assets.xcassets in Resources */,
+				F0AE3FCF1D61B238001A5902 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0AE3FD81D61B238001A5902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0AE3FE31D61B238001A5902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0AE3FBD1D61B238001A5902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AE3FCC1D61B238001A5902 /* ViewController.m in Sources */,
+				F0AE3FC91D61B238001A5902 /* AppDelegate.m in Sources */,
+				F0AE3FC61D61B238001A5902 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0AE3FD61D61B238001A5902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AE3FDF1D61B238001A5902 /* AroundZAxisDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0AE3FE11D61B238001A5902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AE3FEA1D61B238001A5902 /* AroundZAxisDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0AE3FDC1D61B238001A5902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0AE3FC01D61B238001A5902 /* AroundZAxisDemo */;
+			targetProxy = F0AE3FDB1D61B238001A5902 /* PBXContainerItemProxy */;
+		};
+		F0AE3FE71D61B238001A5902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0AE3FC01D61B238001A5902 /* AroundZAxisDemo */;
+			targetProxy = F0AE3FE61D61B238001A5902 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0AE3FCD1D61B238001A5902 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0AE3FCE1D61B238001A5902 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0AE3FD21D61B238001A5902 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0AE3FD31D61B238001A5902 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0AE3FEC1D61B238001A5902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0AE3FED1D61B238001A5902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0AE3FEF1D61B238001A5902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AroundZAxisDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easycol.plainreader.AroundZAxisDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0AE3FF01D61B238001A5902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AroundZAxisDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easycol.plainreader.AroundZAxisDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F0AE3FF21D61B238001A5902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AroundZAxisDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easycol.plainreader.AroundZAxisDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AroundZAxisDemo.app/AroundZAxisDemo";
+			};
+			name = Debug;
+		};
+		F0AE3FF31D61B238001A5902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AroundZAxisDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easycol.plainreader.AroundZAxisDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AroundZAxisDemo.app/AroundZAxisDemo";
+			};
+			name = Release;
+		};
+		F0AE3FF51D61B238001A5902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AroundZAxisDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easycol.plainreader.AroundZAxisDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AroundZAxisDemo;
+			};
+			name = Debug;
+		};
+		F0AE3FF61D61B238001A5902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AroundZAxisDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easycol.plainreader.AroundZAxisDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AroundZAxisDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0AE3FBC1D61B238001A5902 /* Build configuration list for PBXProject "AroundZAxisDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0AE3FEC1D61B238001A5902 /* Debug */,
+				F0AE3FED1D61B238001A5902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0AE3FEE1D61B238001A5902 /* Build configuration list for PBXNativeTarget "AroundZAxisDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0AE3FEF1D61B238001A5902 /* Debug */,
+				F0AE3FF01D61B238001A5902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0AE3FF11D61B238001A5902 /* Build configuration list for PBXNativeTarget "AroundZAxisDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0AE3FF21D61B238001A5902 /* Debug */,
+				F0AE3FF31D61B238001A5902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0AE3FF41D61B238001A5902 /* Build configuration list for PBXNativeTarget "AroundZAxisDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0AE3FF51D61B238001A5902 /* Debug */,
+				F0AE3FF61D61B238001A5902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0AE3FB91D61B238001A5902 /* Project object */;
+}

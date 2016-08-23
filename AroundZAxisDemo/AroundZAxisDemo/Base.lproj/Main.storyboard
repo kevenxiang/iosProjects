@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lZa-pa-Cq4">
+                                <rect key="frame" x="200" y="200" width="200" height="200"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ddS-vr-DpM">
+                                        <rect key="frame" x="40" y="40" width="120" height="120"/>
+                                        <color key="backgroundColor" red="1" green="0.6104223862" blue="0.32930785309999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="120" id="2VY-aU-Vbs"/>
+                                            <constraint firstAttribute="height" constant="120" id="obs-yZ-fBx"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.46730809559999997" green="0.6104223862" blue="0.32930785309999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="6uD-dL-z1m"/>
+                                    <constraint firstAttribute="width" constant="200" id="DSl-gz-sDp"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lZa-pa-Cq4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0gL-ef-9MQ"/>
+                            <constraint firstItem="ddS-vr-DpM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KWp-zF-p5T"/>
+                            <constraint firstItem="ddS-vr-DpM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dgj-tY-ayR"/>
+                            <constraint firstItem="lZa-pa-Cq4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="s4G-G7-NdR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="innerView" destination="ddS-vr-DpM" id="5f4-TU-U6G"/>
+                        <outlet property="outerView" destination="lZa-pa-Cq4" id="Hoi-SM-eYE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="459" y="257"/>
+        </scene>
+    </scenes>
+</document>
